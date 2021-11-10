@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @page {
+            size: auto;
+        }
+
+        body {
+            background: rgb(204, 204, 204);
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            box-shadow: 0 0 0.1cm rgba(0, 0, 0, 0.5);
+        }
+
+        page[size="A4"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A4"][layout="potrait"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A3"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A3"][layout="landscape"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A5"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A5"][layout="landscape"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="dipakai"][layout="landscape"] {
+            width: 21cm;
+            height: 29cm;
+        }
+
+        @media print {
+
+            body,
+            page {
+                margin: auto;
+                box-shadow: 0;
+            }
+        }
+
+        * {
+            padding: o;
+            margin: 0;
+
+            list-style-type: none;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        .segitiga {
+            margin-bottom: 0;
+            margin-left: 9.7cm;
+            width: 0px;
+            height: 2px;
+            border-bottom: 90px solid transparent;
+            border-right: 428px solid #8695b3;
+            
+        }
+
+        .segitiga1 {
+            margin-bottom: 0;
+            width: 0px;
+            height: 7px;
+            border-bottom: 150px solid transparent;
+            border-left: 428px solid #7b8994;
+        }
+
+        .curiculum {
+            display: flex;
+            align-items: center;
+            margin-left: 80px;
+            text-decoration: solid;
+        }
+
+        img .fp {
+            width: 160px;
+            border-radius: 50px;
+            display: flex;
+            text-decoration: solid;
+            margin-left: 50px;
+        }
+
+        .tabel1 {
+            width: 100%;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <page size="dipakai" layout="landscape" style="margin-top: 2rem;">
+        
+        <div class="left">
+            
+            <div class="sidebar-right">
+                
+            </div>
+            
+            <div class="sidebar-left" style="position: absolute;">
+                <div style="margin-top: 5rem; margin-left: 27rem;">
+                    <p align="center">CURICULUM VITAE</p>
+                    <p align="center"><b>PUTRI AMELIA YASTARI</b></p>
+                </div>
+            </div>
+             
+            <div>
+                <div class="segitiga" style="position: absolute;"></div>
+            </div>
+            
+            
+            <div class="segitiga1" style="position: absolute;">
+                
+            </div>
+            <img src="putri.png" alt="profil" style=" margin-top: 2rem; width: 100px; height: 100px; border-radius: 100px; position: absolute; margin-left: 3rem; background-color: #fff; ">
+            <br><br>
+            <div class="page" style=" position: absolute;">
+                
+                <div class="profil" style="position: absolute;">
+                    
+                    <h3 style="margin-left: 2rem; margin-top: 10rem;"><b style="color: rgb(19, 182, 223);">PROFIL</b></h3> 
+                    <div
+                            style="border-left: 1px solid black; height: 20cm; width: 1px; margin-left: 24rem; position: absolute;">
+                        </div>        
+                    <div style="margin-left: 2rem; margin-top:1rem; width: 19rem;">
+                        <td>
+                            <font style="margin-right: 6rem;">Nama</font>
+                        </td>
+                        <td>:</td>
+                        <td>Putri Amelia Yastari</td><br>
+                        <td>
+                            <font style="margin-right: 2.5rem;">Jenis Kelamin</font>
+                        </td>
+                        <td>:</td>
+                        <td>Perempuan</td><br>
+                        <td>
+                            <font style="margin-right: 5.5rem;">Agama</font>
+                        </td>
+                        <td>:</td>
+                        <td>Islam</td><br>
+                        <td>
+                            <font style="margin-right: 2.8rem;">Tempat Lahir</font>
+                        </td>
+                        <td>:</td>
+                        <td>Tungkal Ulu</td><br>
+                        <td>
+                            <font style="margin-right: 2.6rem;">Tanggal Lahir</font>
+                        </td>
+                        <td>:</td>
+                        <td>06 April 2001</td><br>
+                        <td>
+                            <font style="margin-right: 0.5rem;">Kewarganegaraan</font>
+                        </td>
+                        <td>:</td>
+                        <td>Indonesia</td><br>
+                    </div>
+                    
+                </div>
+                <div class="profil" style="position: absolute; margin-left: 24rem; margin-top: 10rem;" >
+                    <h3 style="margin-left: 2rem;"><b style="color: rgb(19, 182, 223);">EDUCATION</b><br></h3> 
+                    <div style="margin-left: 2rem; width: 19rem; margin-top: 0.9rem">
+                    <td>
+                        <b>UNIVERSITAS NURDIN HAMZAH</b>
+                    </td><br>
+                    <td><b>2019-2023</b></td><br><br>
+                    <td>
+                        <b>SMA N 3 Tanjung Jabung Barat</b>
+                    </td><br>
+                    <td><b>2016-2019</b></td><br><br>
+                    <td>
+                        <b>SMP N 1 Tanjung Jabung Barat</b>
+                    </td><br>
+                    <td><b>2012-2015</b></td><br><br>
+                    <td>
+                        <b>SDN 139/V Taman Raja</b>
+                    </td><br>
+                    <td><b>2016-2013</b></td><br>
+                </div>
+                    
+                </div>
+                <div class="profil" style="margin-top: 23rem; position: absolute; margin-left: 24rem;" >
+                    <h3 style="margin-left: 2rem; margin-top: 4rem;"><b style="color: rgb(19, 182, 223);">EXPERIANCE</b><br><br></h3>
+                    <div style="margin-left: 2rem; width: 19rem; ">
+                    <td>
+                        <b>Anggota Dramband</b>
+                    </td><br>
+                    <td><b>2016-2019</b></td><br><br>
+                </div>
+                </div>
+
+                <div class="profil" style="margin-top: 22rem;" >
+                    <h3 style="margin-left: 2rem; margin-top: 4rem;"><b style="color: rgb(19, 182, 223);">CONTACT</b><br><br></h3>
+                    <table class="tabel" style="margin-left: 10px;">
+                        <tr>
+                            <td>
+                                <p style="margin-left: 10px;">
+                                    <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/4a90e2/external-email-interface-kiranshastry-lineal-kiranshastry.png" style="width: 25px;" /> putriiameliaa0604@gmail.com </p><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 10px;">
+                                    <img src="https://img.icons8.com/windows/32/4a90e2/call-squared.png" style="width: 25px;" /> +62 81370048353 </p><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p style="margin-left: 10px;">
+                                    <img src="https://img.icons8.com/wired/64/4a90e2/home.png" style="width: 20px;" /> Sipin, Kota Jambi </p><br>
+                            </td>
+                        </tr>
+                    </table>
+                </div><br>
+
+                <div class="profil" style="margin-left: 24rem; position: absolute;">
+                    <h3 style="margin-left: 2rem;"><b style="color: rgb(19, 182, 223);">PLANNING FOR THE NEXT 5 YEARS</b><br><br></h3>
+                    <div style="margin-left: 2rem; width: 21rem; ">
+                        <td>
+                            <p style="text-align: justify;">Ingin menjadi salah satu manajer dari salah satu perusahaan kosmetik Amore, sekaligus melanjutkan pendidikan di Universitas Gadjah Mada mengambil Fakultas Pisikolog dan menjadi Fakultas Pisikologi dan menjadi pengusaha muda, yang membuka banyak bisnis dan bisnis itu berkembang pesat juga membuka banyak lowongan pekerjaan yang paling penting dalam lowongan pekerjaan yang paling penting dalam pencapaian saya yaitu bisa menaikkan haji kedua orang tua dan bisa berkeliling dunia.</p>
+                        </td><br>
+                    </div>
+                </div>
+                <div class="profil" style="position: absolute;" >
+                    <h3 style="margin-left: 2rem;"><b style="color: rgb(19, 182, 223);">HOBBIES</b><br><br></h3>
+                    <table class="tabel" style="margin-left: 10px;">
+                        <tr>
+                            <td>
+                                <p style="margin-left: 0rem;">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/4a90e2/musical-notes.png" style="width: 25px;" /> Music </p><br>
+                            </td>
+                            <td>
+                                <p style="margin-left: 3rem;">
+                                     <img src="https://img.icons8.com/fluency-systems-regular/48/26e07f/beach.png" style="width: 20px;" /> Holiday </p><br>
+                            </td>
+                        </tr>
+                        
+                            
+                    
+                    </table>
+                </div><br><br>
+                <div>
+                    <div style="position: absolute; margin-top: 21rem; margin-bottom:0; margin-left: 24.6rem; width: 0px; height: 2px; border-top: 120px solid transparent; border-right: 400px solid #8695b3;"></div>
+                </div>
+                <div style="position: absolute; margin-top: 21rem; margin-bottom:0; width: 0px; height: 2px; border-top: 120px solid transparent; border-left: 400px solid #7b8994;">
+                </div>
+
+            
+    </page>
+</body>
+
+</html>
